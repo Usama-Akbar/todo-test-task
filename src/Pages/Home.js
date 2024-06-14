@@ -52,7 +52,7 @@ export default function Home() {
                       todo.status === "Completed"
                         ? "green"
                         : todo.status === "Pending"
-                        ? "yellow"
+                        ? ""
                         : "blue"
                     }
                   >
