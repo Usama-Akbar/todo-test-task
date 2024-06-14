@@ -1,0 +1,74 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.todo-form {
+  padding: 5% 30%;
+}
+.todo-card {
+  width: 20%;
+}
+.todo-card-div {
+  display: flex;
+  margin-top: 30px;
+}
+.todo-card {
+  margin-left: 20px;
+}
+.todo-body{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.actions-list{
+  display: flex;
+  /* flex-direction: column; */
+}
+.no-todo-div{
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+.top-bar{
+  justify-content: space-between;
+  /* padding: 20px 50px; */
+  display: flex;
+}
+.top-bar-card{
+  width: 100%;
+}.top-bar-cardBody{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
